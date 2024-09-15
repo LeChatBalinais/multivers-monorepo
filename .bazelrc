@@ -1,0 +1,1 @@
+build --cxxopt='-std=c++17' --cxxopt='-stdlib=libc++' --linkopt='-lc++'  --repo_env=CC=clang-16 --repo_env=CXX=clang++-16 --enable_bzlmod

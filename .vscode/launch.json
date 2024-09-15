@@ -1,0 +1,17 @@
+    {
+        "configurations": [
+            {
+                "type": "lldb",
+                "request": "launch",
+                "name": "Launch",
+                "program": "${workspaceFolder}/bazel-bin/sandbox/sandbox",
+                "args": [],
+                "sourceMap": {
+                    "/proc/self/cwd": "${workspaceFolder}",
+                },
+                "initCommands": [
+                    "set set target.disable-aslr false"
+                ]
+            }
+        ],
+    }
